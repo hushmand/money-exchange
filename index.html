@@ -1,0 +1,110 @@
+<html>
+  
+    <head>
+        <title>Coinec</title>
+        <meta charset="utf-8"/>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
+
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+
+        <!-- <script defer type = "text/javascript" src = "lib/jquery/jquery-3.5.1.js"></script> -->
+        <!-- <script defer src="./lib/index.js"></script> -->
+        <script defer src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        
+        <div class="d-flex flex-row">
+
+            <!-- left pan --> 
+            <div class="d-flex flex-column pl-3 pt-3">
+                <div class="card-color p-2">
+                    <p class="text-white bg-transparent font-weight-bold">Trade Request</p>
+
+                    <form class="bg-transparent ml-1 mr-1 mt-0 mb-0">
+
+                        <div class="d-flex justify-content-between bg-transparent">
+                          <label for="inputEmail3" class="col-form-label bg-transparent text-white" style="white-space: nowrap;">I have</label>
+                          <div class="bg-transparent ml-2">
+                            <input autocomplete="false" type="text" class="form-control" id="inputEmail3" placeholder="amount">
+                          </div>
+                          <div class="d-flex flex-row align-items-center ml-1 pl-1" style="background-color: var(--color_7); border-radius: 4px; border:1px solid var(--color_6);">
+                            <img src="images/flags_PNG14592.png" width="25" height="15" alt="menu">
+                            <!-- <p class="m-0 text-white" style="font-size: 16px;">USD</p> -->
+                            <img src="images/menu-down.png" width="30" height="30" alt="menu">
+                          </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between bg-transparent mt-2">
+                          <label for="inputPassword3" class="col-form-label bg-transparent text-white" style="white-space: nowrap;">I need</label>
+                          <div class="bg-transparent ml-2">
+                            <input autocomplete="false" type="text" class="form-control" id="inputPassword3" placeholder="amount">
+                          </div>
+                          <div class="d-flex flex-row align-items-center ml-1 pl-1" style="background-color: var(--color_7); border-radius: 4px; border:1px solid var(--color_6);">
+                            <img src="images/flags_PNG14592.png" width="25" height="15" alt="menu">
+                            <!-- <p class="m-0 text-white" style="font-size: 16px;">USD</p> -->
+                            <img src="images/menu-down.png" width="30" height="30" alt="menu">
+                          </div>
+                        </div>
+
+                        <div class="d-flex flex-row-reverse bg-transparent mt-2">
+                          <div class="bg-transparent">
+                            <button type="submit" class="btn text-white">Search</button>
+                          </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+
+            <!-- right pan -->
+            <div class="p-2 flex-grow-1">
+
+              <div class="d-flex flex-column">
+
+                <div class="d-flex justify-content-between mt-3 ml-4 mr-4">
+                  <p class="text-white" style="font-size: 18px;">HAVE</p>
+                  <p class="text-white" style="font-size: 18px;">NEED</p>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center ml-4 mr-4 p-3" style="border-radius: 8px; background-color: var(--color_8);">
+                  
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="d-flex flex-row align-items-center ml-1 pl-1" style="background-color: var(--color_7); border-radius: 4px; border:1px solid var(--color_6);">
+                      <img src="images/flags_PNG14592.png" width="25" height="15" alt="menu">
+                      <!-- <p class="m-0 text-white" style="font-size: 16px;">USD</p> -->
+                      <img src="images/menu-down.png" width="30" height="30" alt="menu">
+                    </div>
+                    <p class="text-white mb-0 ml-2" style="font-size: 18px;">10,000</p>
+                  </div>
+
+
+                  <img id="circle" class="p-2" src="./images/icons8-repeat-96.png" alt="Switch" width="30" height="30">
+
+                  <div class="d-flex flex-row align-items-center">
+                    <p class="text-white mb-0 mr-2" style="font-size: 18px;">25,000</p>
+                    <div class="d-flex flex-row align-items-center ml-1 pl-1" style="background-color: var(--color_7); border-radius: 4px; border:1px solid var(--color_6);">
+                      <img src="images/flags_PNG14592.png" width="25" height="15" alt="menu">
+                      <!-- <p class="m-0 text-white" style="font-size: 16px;">USD</p> -->
+                      <img src="images/menu-down.png" width="30" height="30" alt="menu">
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            
+            </div>
+
+
+
+        </div>
+        
+    </body>
+
+</html>
